@@ -1,0 +1,27 @@
+sort1 uses: bubble
+
+How do you know?: guess
+
+sort2 uses: merge
+
+How do you know?: fastest random, consistent times
+
+sort3 uses: selection
+
+How do you know?: slowest sorted
+
+
+random:
+(8.195) 1
+(1.254) 2 (merge)
+(3.607) 3
+
+reversed:
+(7.16) 1
+(1.454) 2 (merge)
+(4.543) 3
+
+sorted:
+(2.015) 1
+(1.154) 2
+(3.798) 3 (selection)
